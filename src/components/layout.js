@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
       <main>{children}</main>
       <footer className={`w-full h-275 mt-40 ${albumStyles.footer}`}>
         <div className="text-gray-100 text-center w-full pt-12">
-          Ask Your Dog Guru © {new Date().getFullYear()}
+          Stiff Socks © {new Date().getFullYear()}
         </div>
         <ul className={`flex justify-center mt-8 text-gray-100`}>
           {/* <li className="ml-6 mr-6 hover">
